@@ -301,7 +301,28 @@
             </div>
             </div>
          
-        </div></div>
+        </div>
+    <div class="container-newsletter">
+        <div class="container-title-social-footer2"><span>SUBSCRIBE TO THE NEWSLETTER</span></div>
+        <div class="newsltter-2line">
+            <div >
+                <label class="container-newsletter-email">
+                <input class="email-newsletter" type="email" name="email" placeholder="E-mail" autocomplete="off"/>
+              </label> 
+            </div>
+            <div>
+                <button type="submit" class="button-email-subscribe">Subscribe <svg class="icon-send" width="24" height="24">
+                    <use xlink:href="./images/icons.svg#icon-icon-send" ></use>
+                  </svg></button>
+            </div>
+            
+
+        </div>
+
+
+
+    </div>
+    </div>
         
 
     </footer>
@@ -314,9 +335,67 @@
                 <use xlink:href="./images/icons.svg#icon-close" ></use>
               </svg>
             </button>
-            
+            <form class="modal-page" autocomplete="off">
+                <p class="modal-title">Leave your information and we'll call you back</p>
+                
+                    <label>
+                    Name
+                    </label>
+                <div class="container-label">
+                    <input type="text" name="name"  autocomplete="off"/>
+                    <svg class="icon-Modal-person"  width="12" height="12" >
+                        <use  xlink:href="./images/icons.svg#icon-Modal-person" ></use>
+                        </svg>
+                </div>
+                
+                
+                    <label>
+                    Telephone
+                    </label>
+                    <div class="container-label">
+                    <input type="number" name="telephone"  autocomplete="off"/>
+                    <svg class="icon-Modal-phone"  width="13" height="13" >
+                        <use  xlink:href="./images/icons.svg#icon-Modal-phone" ></use>
+                        </svg>
+                </div>
+                
+                
+                    <label>
+                    E-mail 
+                    </label>
+                    <div class="container-label">
+                    <input type="email" name="e-mail"  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"/>
+                    <svg class="icon-Modal-mail"  width="15" height="12" >
+                        <use  xlink:href="./images/icons.svg#icon-Modal-mail" ></use>
+                        </svg>
+                    
+                </div>
+                
+               
+                <label>
+                    Comments
+                </label>
+                 <div class="container-label">
+                    <textarea name="comments" rows="6" placeholder="Enter the text"></textarea>
+                </div>
+                 <div class="terms">
+                   
+
+                 <label class="container-terms" >
+                     <input  class="checkbox" id="mycheckbox" type="checkbox" name="terms"   />
+                    <svg class="icon-Vector" id="svgElement" width="16" height="15" >
+                        <use  xlink:href="./images/icons.svg#icon-Vector" ></use>
+                        </svg>
+                      
+                 </label>
+                    <span class="accept-text">I agree with the letter and accept the <a class="accept-text-2" href="#">Terms and Conditions</a>
+                </div>
+                
+                  <div class="submit-modal"><button type="submit" class="button-modal-submit">Send</button></div>
+            </form>
+
+
           </div>
-        
         </div>
       </div>
 
