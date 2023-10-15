@@ -862,6 +862,7 @@ text-transform: uppercase;
     top: calc(50% - 6px);
     left: 12px;
     transition:fill var(--transition);
+   
 }
 
 input{
@@ -872,11 +873,16 @@ input{
     transition: border-color var(--transition), fill var(--transition);
     outline: none;
 }
-.container-label:hover input,
-.container-label:hover svg{
+.container-label:hover input
+{
     border: 1px solid rgba(33, 150, 243, 1);
     fill: #2196F3;
 }
+.container-label:hover svg{
+    fill: #2196F3;
+}
+
+
 
 textarea{
     border-radius: 4px;
@@ -916,6 +922,7 @@ label{
     justify-content: center;
     gap: 7px;
     padding-top: 10px;
+    margin-left: -10px;
 }
 .icon-Vector{
 position: absolute;
